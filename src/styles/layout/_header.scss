@@ -1,0 +1,59 @@
+.logo {
+    width: 160px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+.navbar {
+    padding: 40px;
+    display: flex;
+}
+
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
+
+.hamburger-circle {
+    color: #474644;
+    border-radius: 50%;
+    align-self: center;
+    border: 1px solid rgba(0,0,0,.5);
+    font-weight: 400;
+    width: 75px;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    animation: cssBlob 6.5s linear;
+}
+
+@keyframes cssBlob
+{
+    0% {
+        transform: matrix(0, 0, 0, 0, 0, 0)
+    }
+    25% {
+        // transform: matrix3d(-0.2, 0.001, 0, 0, -0.0012725, -0.02, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        color: #f4f0ec;
+    }
+    50% {
+        // transform: matrix3d(0.2, 0.5, 0, 0, -0.5, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        color: #f4f0ec;
+    }
+    75% {
+        transform: matrix3d(-0.2, 0.001, 0, 0, -0.0012725, -0.02, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    80% {
+        transform: matrix3d(0.2, 0.5, 0, 0, -0.5, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    90% {
+        transform: matrix3d(0.9, 0.06, 0, 0, -0.069, 0.9, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        color: #f4f0ec;
+    }
+    100% {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        color: #474644;
+    }
+}

@@ -1,0 +1,63 @@
+.main-title {
+    font-size: 200px;
+    margin-top: 180px;
+    font-weight: 500;
+    z-index: 97;
+    color: #000;
+    line-height: 1.2;
+}
+
+.opac {
+    animation: fade 3s linear;
+}
+
+@keyframes fade
+{
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.3;
+    }
+    80% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+
+.pad {
+    margin-top: 370px;
+}
+
+.swiper-container {
+    width: 800px;
+    height: 50%;
+    animation: key 6s linear;
+}
+
+@keyframes key
+{
+    0% {
+        transform: scale(0);
+    }
+    60% {
+        transform: scale(0.3);
+    }
+    75% {
+        transform: scale(0.5);
+    }
+    90% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

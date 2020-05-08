@@ -1,0 +1,193 @@
+// html {
+//     overflow: scroll;
+// }
+// ::-webkit-scrollbar {
+//     width: 0px;
+//     background: #f4f1ec;
+// }
+
+body {
+    font-family: 'Copyright Klim Type Foundry';
+    background-color: #f4f1ec;
+    scroll-behavior: smooth;
+}
+
+.load-page {
+    text-transform: uppercase;
+    font-size: 140px;
+    font-weight: 400;
+    position: fixed;
+    background-color: #f4f0ec;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    animation: fadeOut 4s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    40% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+.backg-test {
+    position: fixed;
+    background-color: #f4f0ec;
+    z-index: 98;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.back-hidden {
+    animation: aside 5.7s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aside
+{
+    40% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.load-text {
+    font-family: "Calluna";
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    margin: 50px 50px 0 50px;
+    max-width: 250px;
+    display: inline-block;
+}
+
+.load-text {
+    display: block;
+    animation: fadeInFromNones 3.5s linear;
+}
+
+@keyframes fadeInFromNones {
+        0% { 
+            opacity: 0; 
+        }
+        20% { 
+            opacity: 0; 
+        }
+        40% { 
+            opacity: 0; 
+        }
+        60% { 
+            opacity: 0; 
+        }
+        80% { 
+            opacity: 0.6; 
+        }
+        100% { 
+            opacity: 1; 
+        }
+}
+
+
+.load-name {
+    display: block;
+    animation: fadeInFromNone 1s ease-out;
+}
+@keyframes fadeInFromNone {
+    30% {
+        display: none;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+
+#test {
+    display: block;
+
+    animation: fadeInFromNone 1s ease-out;
+}
+@keyframes fadeInFromNone {
+    30% {
+        display: none;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+#testing {
+    display: block;
+
+    animation: fadeInFromNone 1s ease-out;
+}
+@keyframes fadeInFromNone {
+    30% {
+        display: none;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.load-surname {
+    padding-left: 220px; 
+}
+
+.load-surname {
+    display: block;
+    animation: fadeInFromNone 1s ease-out;
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
