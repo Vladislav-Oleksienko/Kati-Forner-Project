@@ -57,17 +57,17 @@ window.addEventListener("load", function () {
 
 anime({
     targets: '.logo',
-    delay: 5200,
+    delay: 4600,
     duration: 900,
     translateX: -250,
     easing: 'easeInOutSine'
 });
 
 anime({
-    targets: '.main-title',
-    delay: 5200,
+    targets: '#title-anime',
+    delay: 4600,
     duration: 900,
-    translateY: -120,
+    translateY: -150,
     easing: 'easeInOutSine'
 });
 

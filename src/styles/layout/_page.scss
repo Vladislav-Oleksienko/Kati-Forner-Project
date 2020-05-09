@@ -1,7 +1,7 @@
 .main-title {
     font-size: 200px;
     margin-top: 180px;
-    font-weight: 500;
+    font-weight: 400;
     z-index: 97;
     color: #000;
     line-height: 1.2;
@@ -33,13 +33,17 @@
     background: #fff;
 }
 
-.pad {
+.mar {
     margin-top: 370px;
 }
 
+.pad {
+    padding: 115px 0 115px 0;
+}
+
 .swiper-container {
-    width: 800px;
-    height: 50%;
+    width: 50%;
+    height: 55%;
     animation: key 6s linear;
 }
 
@@ -60,4 +64,8 @@
     100% {
         transform: scale(1);
     }
+}
+
+.color-g {
+    color: #9ebdae;
 }

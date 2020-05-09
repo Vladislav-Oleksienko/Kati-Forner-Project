@@ -1,15 +1,16 @@
-// html {
-//     overflow: scroll;
-// }
-// ::-webkit-scrollbar {
-//     width: 0px;
-//     background: #f4f1ec;
-// }
+html {
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: #f4f1ec;
+}
 
 body {
     font-family: 'Copyright Klim Type Foundry';
     background-color: #f4f1ec;
-    scroll-behavior: smooth;
 }
 
 .load-page {
