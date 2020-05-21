@@ -7,6 +7,10 @@
     line-height: 1.2;
 }
 
+#second-title-anime {
+    margin-top: 0;
+}
+
 .opac {
     animation: fade 3s linear;
 }
@@ -39,6 +43,7 @@
 
 .pad {
     padding: 115px 0 115px 0;
+    color: #000 !important;
 }
 
 .swiper-container {
@@ -68,4 +73,48 @@
 
 .color-g {
     color: #9ebdae;
+}
+
+.link-about {
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1;
+    color: #000000;
+  
+    &:after {
+      content: "";
+      width: 65px;
+      height: 3px;
+      background-color: #000;
+      display: block;
+      transition: 0.8s;
+    }
+  
+    &:hover:after {
+      width: 1px;
+      height: 3px;
+      transition: 0.8s;
+      visibility: hidden;
+    }
+}
+
+.title-project {
+    font-size: 120px;
+    transition: 0.5s;
+
+    &:hover {
+        color: #c3c0bd;
+        cursor: pointer;
+        
+    }
+}
+
+.text-project {
+    color: #afaead;
+    font-size: 30px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    line-height: 1;
 }

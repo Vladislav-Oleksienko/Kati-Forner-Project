@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kati Forner - Welcome</title>
 </head>
@@ -24,10 +25,22 @@
     
     <div class="backg-test"></div>
     
-    <header class="p-5 nav-bar d-flex align-items-md-start align-items-center justify-content-between">
-        <div class="logo" href="#">
+    <header class="p-5 nav-bar d-flex align-items-md-start align-items-center justify-content-between position-fixed">
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 39" class="logo">
+          <path d="M17.27 26.21l-8-9.75-1.22 1.22v8.53h-2.5V7.06L4.9 5.98h3.14v9.56l7.92-8.48-.19-1.08h3.78l-8.31 8.98 9.23
+            11.25h-3.2zM115.95 17.4h-8.14v8.81h-2.5V7.06l-.64-1.08h11.98l-.69 1.86h-8.14v7.73h8.84l-.71 1.83zM220.02 15.79c0
+            1.8-.43 3.43-1.29 4.89-.86 1.46-2.06 2.65-3.6 3.56-.19.11-.37.22-.56.32s-.37.21-.56.32c-.78.43-1.58.76-2.42.99-.83.23-1.7
+            .35-2.58.35h-5.95V7.06l-.64-1.08h7.67c1.35 0 2.63.26 3.83.76 1.2.51 2.26 1.2 3.17 2.08s1.62 1.92 2.14 3.11c.53 1.2.79 2.48
+            .79 3.86zm-2.53.63c0-1.19-.23-2.3-.68-3.35s-1.07-1.96-1.85-2.74-1.69-1.39-2.74-1.83-2.16-.67-3.35-.67h-3.31v16.53h4.42c.65
+            0 1.29-.06 1.93-.18s1.25-.36 1.82-.71c.61-.37 1.15-.81 1.61-1.33s.85-1.09 1.17-1.71c.31-.62.56-1.27.72-1.95.18-.66.26-1.35
+            .26-2.06zM37.32 16.45h44.91v1.18H37.32zM135.91 16.45h44.91v1.18h-44.91z">
+          </path>
+        </svg>
+      </a>
+        <!-- <div class="logo">
             <img src="src/img/logo.jpg" alt="">
-        </div>
+        </div> -->
         <div class="hamburger-circle d-flex">
             <div class="hamburger-letter">M</div>
             <div class="hamburger-letter-down">E</div>
@@ -36,7 +49,7 @@
         </div>
     </header>
 
-    <div class="d-flex text-center justify-content-center align-items-center opac">
+    <div class="d-flex text-center justify-content-center align-items-center opac pad">
         <div class="main-title" id="title-anime">We are a full-service creative studio</div>
     <div class="swiper-container position-absolute mar" style="pointer-events:none;">
         <div class="swiper-wrapper">
@@ -81,7 +94,7 @@
     </div>
 
     <div class="d-flex flex-column text-center justify-content-center align-items-center opac pad">
-      <div data-aos="fade-up" class="main-title">based in Los
+      <div data-aos="fade-up" class="main-title" id="second-title-anime">based in Los
         <div>Angeles, California.</div>
       </div>
       <img src="src/img/arrow.jpg" class="d-flex my-5" data-aos="fade-down" alt="">
@@ -160,11 +173,32 @@
         </h2>
         <img src="src/img/second-section-7.jpg" alt="">
       </div>
+      <a href="#" data-aos="fade-up" class="mt-5 link-about">About</a>
+    </section>
+
+    <section class="pad">
+      <div data-aos="fade-up" class="d-flex flex-column text-center justify-content-center pb-5 mb-5">
+        <h2 class="display-2 text-black">Featured projects</h2>
+        <h6>Scroll down for more</h6>
+      </div>
+
+      <div data-aos="fade-up" class="row pt-5 mt-5">
+        <div class="col-6 d-flex flex-column align-items-center align-items-md-start justify-content-between">
+          <span class="p-5 title-project">Galdier</span>
+          <div class="d-flex align-items-end flex-column ml-5">
+            <div class="text-project">branding</div>
+            <span class="text-project">packaging</span>
+          </div>
 
 
-      <a href="#" class="mt-5">About</a>
+        </div>
+  
+        <div data-aos="fade-up" class="col-6">
+          <img src="src/img/galdier.jpg" alt="">
+        </div>
+      </div>
 
-      
+
 
     </section>
 

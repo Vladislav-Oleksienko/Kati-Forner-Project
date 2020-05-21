@@ -71,6 +71,16 @@ anime({
     easing: 'easeInOutSine'
 });
 
+// let linkAbout = document.querySelector('.link-about');
+
+// linkAbout.addEventListener('mouseenter', () => {
+//     anime({
+//         targets: '.link-about',
+//         width: ['0%', '100%'], // -> from '28px' to '100%',
+//         easing: 'easeInOutQuad',
+//         direction: 'alternate',
+//     });
+// })
 
 let menu = document.querySelector('.hamburger-circle');
 
@@ -104,10 +114,9 @@ menu.addEventListener('mouseleave', () => {
     });
 })
 
-
-
 let swiper = new Swiper('.swiper-container', {
     spaceBetween: 30,
+    noSwiping: false,
     centeredSlides: true,
     autoplay: {
       delay: 400,
